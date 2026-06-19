@@ -1,0 +1,49 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["hi", "hello", "hey", "good morning", "good evening", "is anyone there", "hey there"],
+      "responses": ["Hello! How can I help you today?", "Hi there! What can I do for you?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["bye", "see you later", "goodbye", "thanks bye", "close chat"],
+      "responses": ["Goodbye! Have a great day.", "See you soon!"]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["thanks", "thank you", "that's helpful", "thanks a lot"],
+      "responses": ["You're welcome!", "Happy to help!"]
+    },
+    {
+      "tag": "pricing",
+      "patterns": ["what are your prices", "how much does it cost", "pricing plans", "what is the price", "do you have a free plan"],
+      "responses": ["We offer Basic, Pro, and Enterprise plans. Would you like me to share pricing details?"]
+    },
+    {
+      "tag": "business_hours",
+      "patterns": ["what are your business hours", "when are you open", "support hours", "when can I reach support"],
+      "responses": ["Our support team is available Monday-Saturday, 9 AM to 7 PM IST."]
+    },
+    {
+      "tag": "order_status",
+      "patterns": ["where is my order", "track my order", "order status", "has my order shipped"],
+      "responses": ["Please share your order ID and I'll look up the status for you."]
+    },
+    {
+      "tag": "contact",
+      "patterns": ["how can I contact support", "talk to a human", "customer care number", "email support"],
+      "responses": ["You can reach our team at support@example.com or use the 'Talk to Agent' button below."]
+    },
+    {
+      "tag": "refund",
+      "patterns": ["how do I get a refund", "refund policy", "I want my money back", "cancel my order"],
+      "responses": ["Refunds are processed within 5-7 business days. Would you like to start a refund request?"]
+    },
+    {
+      "tag": "fallback",
+      "patterns": [],
+      "responses": ["I'm not totally sure I understood that. Could you rephrase, or I can connect you to a human agent?"]
+    }
+  ]
+}
