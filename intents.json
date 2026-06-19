@@ -44,6 +44,76 @@
       "tag": "fallback",
       "patterns": [],
       "responses": ["I'm not totally sure I understood that. Could you rephrase, or I can connect you to a human agent?"]
-    }
+    },
+{
+  "tag": "price",
+  "patterns": [
+    "price",
+    "cost",
+    "how much",
+    "what is the price"
+  ],
+  "responses": [
+    "Please specify the product or service you are asking about."
+  ]
+},
+{
+  "tag": "services",
+  "patterns": [
+    "what services do you offer",
+    "services",
+    "what can you do"
+  ],
+  "responses": [
+    "I can answer questions, provide information, and assist with basic customer support."
+  ]
+},
+{
+  "tag": "hours",
+  "patterns": [
+    "working hours",
+    "when are you open",
+    "business hours"
+  ],
+  "responses": [
+    "Our support service is available Monday to Friday from 9 AM to 6 PM."
+  ]
+},
+{
+  "tag": "contact",
+  "patterns": [
+    "contact",
+    "email",
+    "phone number",
+    "customer support"
+  ],
+  "responses": [
+    "You can contact us at support@example.com."
+  ]
+},
+{
+  "tag": "thanks",
+  "patterns": [
+    "thanks",
+    "thank you",
+    "appreciate it"
+  ],
+  "responses": [
+    "You're welcome!",
+    "Happy to help!"
+  ]
+},
+{
+  "tag": "goodbye",
+  "patterns": [
+    "bye",
+    "goodbye",
+    "see you later"
+  ],
+  "responses": [
+    "Goodbye! Have a great day!",
+    "See you soon!"
+  ]
+}
   ]
 }
